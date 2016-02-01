@@ -1,0 +1,47 @@
+body {
+	background-image : url("images/background.jpg");
+}
+
+.all {
+  text-align : center;
+  padding-top : 8%;
+}
+
+.box, select {
+	width : 250px;
+	height : 25px;
+	background-color : transparent;
+	color : white;
+	margin : 5px;
+	text-align : center;
+	border : 1px;
+	border-style : solid;
+}
+
+p {
+	font-family : "Agency FB";
+	font-size : 30px;
+	color : white;
+}
+
+input[type="submit"]{
+    width: 250px;
+    padding: 0.3em;
+    margin : 5px;
+    color: #888;
+    background-color:#00cdb1 ;
+    border:none;
+    color:#eee;
+    border-bottom: 4px solid transparent;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.8;
+    border-color: #00adb1;
+}
+
+a {
+	color : white;
+	font-size : 15px;
+	font-style : normal;
+}
